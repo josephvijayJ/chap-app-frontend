@@ -51,7 +51,7 @@ const Signup = () => {
         },
       };
       const { data } = await axios.post(
-        '/api/user',
+        'https://chat-app-backend1-2-3.herokuapp.com/api/user',
         {
           name,
           email,
